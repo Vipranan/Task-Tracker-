@@ -33,5 +33,6 @@ import Playgrounds
         return price * Double(quantity)
     }
     
-    calculatingTotal(price: 9.99, quantity: 5)
+    let total = calculatingTotal(price: 9.99, quantity: 5)
+    print("Total: \(total)")
 }
