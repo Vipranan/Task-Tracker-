@@ -239,5 +239,6 @@ struct RegisterView: View {
 }
 
 #Preview {
-    LoginView(authService: AuthenticationService(modelContext: ModelContext(try! ModelContainer(for: User.self))))
+    let container = try! ModelContainer(for: [User.self], inMemory: true)
+    LoginView(authService: AuthenticationService(modelContext: ModelContext(container)))
 }

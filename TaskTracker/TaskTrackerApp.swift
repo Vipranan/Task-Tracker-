@@ -14,7 +14,7 @@ struct TaskTrackerApp: App {
         WindowGroup {
             RootView()
         }
-        .modelContainer(for: Task.self, User.self)
+        .modelContainer(for: [Task.self, User.self], inMemory: false)
     }
 }
 

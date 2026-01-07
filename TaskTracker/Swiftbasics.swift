@@ -8,15 +8,15 @@
 import Playgrounds
 #Playground {
     // basic data types of swift ui
-    var age: Int = 25 // integer
-    var isStudent: Bool = false // boolean
-    var name: String = "Vipranan" // string
-    var price: Double = 100.00 // high precision decimal
-    var discount: Float = 0.10 // float values
+    let age: Int = 25 // integer
+    let isStudent: Bool = false // boolean
+    let name: String = "Vipranan" // string
+    let price: Double = 100.00 // high precision decimal
+    let discount: Float = 0.10 // float values
     var fruits: [String] = ["Apple", "Orange", "Banana"] // arrays or list -- hold mockup values
     fruits.append("Pineapple") // adding elements in array or list
     //dictionary
-    var user: [String: String] = [
+    let user: [String: String] = [
         "name": "vipranan",
         "role": "developer"
         
